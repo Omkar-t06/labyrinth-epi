@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800,900&amp;display=swap');
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800,900&amp;display=swap');
 
 /**
 *
@@ -614,9 +614,9 @@ td {
     03. Header CSS
 -----------------------------------------------*/
 
-.full-width-header .rs-header {
-    /*------Transparent Header------*/
-}
+/* .full-width-header .rs-header {
+    ------Transparent Header------
+} */
 
 .full-width-header .rs-header .sticky-logo {
     display: none;
@@ -1479,6 +1479,50 @@ td {
     top: -50px;
 }
 
+.section-heading-line-1 {
+    height: 2px;
+    width: 80%;
+    background-color: #FD00FF;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.section-heading-line-2 {
+    height: 1.75px;
+    width: 60%;
+    background-color: #FD00FF;
+    border: none;
+    margin: 0px auto;
+}
+
+.rs-team-name-heading-line-1 {
+    height: 1.75px;
+    width: 40%;
+    background-color: #FD00FF;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.rs-team-name-heading-line-2 {
+    height: 1.5px;
+    width: 30%;
+    background-color: #FD1300;
+    border: none;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .align-last-member {
+      margin: auto;
+    }
+    .rs-team-name-heading-line-1 {
+        width: 90%;
+    }
+    .rs-team-name-heading-line-2 {
+        width: 70%;
+    }
+}
 
 /*-----------------------------------------------
     12. Services Section Css
@@ -2335,7 +2379,7 @@ td {
 }
 
 .rs-blog.blog-details .blog-content .leave-comments-area label {
-    color: ;
+    /* color: ; */
     font-weight: normal;
     letter-spacing: 1px;
 }
